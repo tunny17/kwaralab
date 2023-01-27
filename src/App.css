@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+/* ---utility classes */
+:root {
+  --primary-color: #12542B;
+  --button-color: #ABEDC4;
+  --background-color: #EEFBF3;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.--display-flex {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+}
+button {
+  padding: 4% 15%;
+  border: 1px solid #000;
+  border-radius: 8px;
+  background-color: transparent;
 }
 
-.App-link {
-  color: #61dafb;
+/* ---              navbar component */
+.navbar-container {
+  width: 100%;
+  padding: 2% 5%;
+}
+/* width control */
+.logo-container {
+  width: 40%;
+}
+.logo-container img {
+  width: 30%;
+}
+.nav-container {
+  width: 45%;
+  font-size: 0.8rem;
+  list-style-type: none;
+  flex-direction: row;
+  color: var(--primary-color);
+}
+.button-container {
+  width: 20%;
+}
+.button-container button:nth-child(1) {
+  border: 1px solid var(--primary-color);
+}
+.button-container button:nth-child(2) {
+  border: none;
+  color: var(--primary-color);
+  background-color: var(--button-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+/* ---                 hero component */
+.hero-container {
+  height: 87vh;
+  background-color: var(--background-color);
+  padding-top: 7%;
+}
+.hero-text {
+  padding: 0 0%;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30vh;
+}
+.hero-text h1 {
+  font-size: 3rem;
+  font-size: 64px;
 }

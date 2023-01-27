@@ -1,13 +1,40 @@
-body {
+/* css reset */
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* custom fonts */
+@font-face {
+  font-family: 'Thicccboi-Bold';
+  src: url('/public/assets/Webfont/THICCCBOI-Black.woff2') format('truetype');
 }
+@font-face {
+  font-family: 'Thicccboi-Light';
+  src: url('/public/assets/Webfont/THICCCBOI-Light.woff2') format('truetype');
+}
+@font-face {
+  font-family: 'Thicccboi-Medium';
+  src: url('/public/assets/Webfont/THICCCBOI-Medium.woff2') format('truetype');
+}
+@font-face {
+  font-family: 'Thicccboi-Regular';
+  src: url('/public/assets/Webfont/THICCCBOI-Regular.woff2') format('truetype');
+}
+
+/* custom fonts as utility classes */
+.thicccboi-bold {
+  font-family: 'Thicccboi-Bold';
+}
+.thicccboi-light {
+  font-family: 'Thicccboi-Light';
+}
+.thicccboi-medium {
+  font-family: 'Thicccboi-Medium';
+}
+.thicccboi-regular {
+  font-family: 'Thicccboi-Regular';
+}
+
