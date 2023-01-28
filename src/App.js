@@ -1,5 +1,5 @@
 import './App.css';
-import { Body1, Hero, Navbar } from './components';
+import { Body1, Body2, Body3, Body4, Footer, Hero, Navbar } from './components';
 
 function App() {
   return (
@@ -7,6 +7,10 @@ function App() {
       <Navbar />
       <Hero />
       <Body1 /> 
+      <Body2 />
+      <Body3 />
+      <Body4 />
+      <Footer />
     </div>
   );
 }

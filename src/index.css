@@ -5,11 +5,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 
 /* custom fonts */
 @font-face {
   font-family: 'Thicccboi-Bold';
   src: url('/public/assets/Webfont/THICCCBOI-Black.woff2') format('truetype');
+}
+@font-face {
+  font-family: 'Thicccboi-SemiBold';
+  src: url('/public/assets/Webfont/THICCCBOI-SemiBold.woff2') format('truetype');
 }
 @font-face {
   font-family: 'Thicccboi-Light';
@@ -27,6 +34,9 @@
 /* custom fonts as utility classes */
 .thicccboi-bold {
   font-family: 'Thicccboi-Bold';
+}
+.thicccboi-semi-bold {
+  font-family: 'Thicccboi-SemiBold';
 }
 .thicccboi-light {
   font-family: 'Thicccboi-Light';
