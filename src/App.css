@@ -341,6 +341,7 @@ figcaption {
   width: 170%;
   border: none;
   border-radius: 15px;
+  outline: none;
   background-color: #AFE0E9;
 }
 .fields input::placeholder {
