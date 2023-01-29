@@ -5,18 +5,22 @@ const DashboardNavbar = () => {
   return (
     <div    className='navigation-container'>
        <div className='profile'>
-        <img src={profile} alt="" />
+        <figure>
+          <img src={profile} alt="" />
+          <figcaption>Damola Seyi</figcaption>
+          <figcaption>inaamajay007@gmail.com</figcaption>
+        </figure>
        </div>
        <div className='navbar'>
         <ul>
-            <li>Dashboard</li>
-            <li>Patients</li>
-            <li>Medics</li>
-            <li>Chats</li>
-            <li>Payment</li>
-            <li>Settings</li>
+          <li className='dashboard-nav-link'>Dashboard</li>
+          <li className='patients'>Patients</li>
+          <li className='medics'>Medics</li>
+          <li className='chats'>Chats</li>
+          <li className='payment'>Payment</li>
+          <li className='settings'>Settings</li>
         </ul>
-        <img src={calendar} alt="" />
+        <img src={calendar} alt="" className='calendar' />
        </div>
     </div>
   )

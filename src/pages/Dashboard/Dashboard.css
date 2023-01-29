@@ -1,21 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
 .navigation-container {
     float: left;
+    width: 17%;
     height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-between;
 }
 .profile {
-    height: 5vh;
-    background-color: var(--neutral-color);
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 30px;
+    background-color: #0A5F59;
+}
+figure {
+    height: 15vh;
+}
+figcaption {
+    color: #fff;
+    margin: 0;
+    font-size: 0.7rem;
+}
+figcaption:nth-child(3) {
+    columns: #EAEAEA;
+    opacity: 0.3;
 }
 .navbar {
-    height: 30vh;
+    width: 100%;
+    height: 100vh;
+    background-color: #252B42;
+    position: relative;
+    /* border-bottom-right-radius: 20px; */
+    /* border-bottom-left-radius: 20px; */
 }
 .navbar ul {
-    height: 100vh;
+    height: 30vh;
+    padding: 2%;
+    margin: 5% 0 0 30%;
+    list-style-type: none;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.navbar ul li {
+    color: #fff;
+    margin: 10% 0;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+.calendar {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    zoom: 130%;
+    width: 80%;
+    height: 23vh;
+}
+
+/* for each nav */
+.dashboard-link,
+.patients,
+.medics,
+.chats,
+.payment,
+.settings
+ {
+    position: relative;
+}
+.dashboard-nav-link::before {
+    content: url(/src/assets/icons/nav-1.svg);
+    position: absolute;
+    left: -60%;
+    zoom: 80%;
+    top: 10%;
+}
+.patients::before {
+    content: url(/src/assets/icons/nav-2.svg);
+    position: absolute;
+    zoom: 80%;
+    top: 8%;
+    left: -23%;
+}
+.medics::before {
+    content: url(/src/assets/icons/nav-3.svg);
+    position: absolute;
+    top: 8%;
+    left: -23%;
+}
+.chats::before {
+    content: url(/src/assets/icons/nav-4.svg);
+    position: absolute;
+    top: 8%;
+    left: -23%;
+}
+.payment::before {
+    content: url(/src/assets/icons/nav-5.svg);
+    position: absolute;
+    top: 8%;
+    left: -23%;
+}
+.settings::before {
+    content: url(/src/assets/icons/nav-6.svg);
+    position: absolute;
+    top: 8%;
+    left: -23%;
 }
