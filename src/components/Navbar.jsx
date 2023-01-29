@@ -1,5 +1,6 @@
 import React from 'react'
 import { Logo } from '../assets/icons'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -18,7 +19,9 @@ const Navbar = () => {
       </div>
       <div  className='button-container  --display-flex'>
         <button type='button'>Login</button>
-        <button type='button'>Sign up</button>
+        <Link to='/dashboard' className='dashboard-link' >
+          <button type='button' className='link-btn'>Sign up</button>
+        </Link>
       </div>
     </div>
   )

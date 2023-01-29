@@ -48,3 +48,11 @@ body::-webkit-scrollbar {
   font-family: 'Thicccboi-Regular';
 }
 
+/* ---utility classes */
+:root {
+  --primary-color: #12542B;
+  --button-color: #ABEDC4;
+  --background-color: #EEFBF3;
+  --background-color2: #E6EFEA;
+  --neutral-color: #283E32;
+}

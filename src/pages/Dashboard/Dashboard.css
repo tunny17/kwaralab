@@ -1,0 +1,21 @@
+.navigation-container {
+    float: left;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.profile {
+    height: 5vh;
+    background-color: var(--neutral-color);
+}
+.navbar {
+    height: 30vh;
+}
+.navbar ul {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
