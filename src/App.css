@@ -55,6 +55,9 @@ h3 {
   font-family: 'Thicccboi-SemiBold';
   background-color: var(--button-color);
 }
+.dashboard-link:nth-child(1) button {
+  background-color: transparent;
+}
 
 
 

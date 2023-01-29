@@ -1,6 +1,7 @@
 import React from 'react'
 // import axios from 'axios'
 import { Doctors, medicalD, medicalH, notepad, traffic } from '../../assets/icons'
+import { DashboardNavbar } from '../../components/Dashboard'
 
 const DashboardBody = () => {
 //   const [patient, setPatient] = useState([]);
@@ -20,6 +21,9 @@ const DashboardBody = () => {
 
   return (
     <div  className='dashboardBody-container'>
+        <div className='dashboard-container'>
+            <DashboardNavbar />
+        </div>
       <div className="body-hero">
         <div  className='box-container'>
           {/* {

@@ -18,7 +18,9 @@ const Navbar = () => {
         </nav>
       </div>
       <div  className='button-container  --display-flex'>
-        <button type='button'>Login</button>
+        <Link to='/Patient' className='dashboard-link' >
+          <button type='button' className='link-btn'>Login</button>
+        </Link>
         <Link to='/dashboard' className='dashboard-link' >
           <button type='button' className='link-btn'>Sign up</button>
         </Link>
