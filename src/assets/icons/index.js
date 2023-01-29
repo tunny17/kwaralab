@@ -22,3 +22,4 @@ export { default as nav5 } from './nav-5.svg';
 export { default as nav6 } from './nav-6.svg';
 export { default as calendar } from './calendar.svg';
 export { default as logout } from './logout.svg';
+export { default as box1 } from './box1.svg';

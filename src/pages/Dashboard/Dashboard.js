@@ -1,13 +1,14 @@
 import React from 'react'
-import DashboardBody from '../../components/DashboardBody'
-import DashboardNavbar from '../../components/DashboardNavbar'
+import { DashboardBody, DashboardNavbar } from '../../components/Dashboard'
 import './Dashboard.css'
 import '../../App.css'
 
 const Dashboard = () => {
   return (
-    <div  className='dashboard-container'>
-      <DashboardNavbar />
+    <div  className='bodyContainer'>
+      <div className='dashboard-container'>
+        <DashboardNavbar />
+      </div>
       <DashboardBody />
     </div>
   )

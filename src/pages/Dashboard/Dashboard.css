@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: absolute;
 }
 .profile {
     width: 100%;
@@ -74,9 +75,9 @@ figcaption:nth-child(3) {
 .dashboard-nav-link::before {
     content: url(/src/assets/icons/nav-1.svg);
     position: absolute;
-    left: -60%;
+    left: 17%;
     zoom: 80%;
-    top: 10%;
+    top: 6%;
 }
 .patients::before {
     content: url(/src/assets/icons/nav-2.svg);
@@ -108,4 +109,46 @@ figcaption:nth-child(3) {
     position: absolute;
     top: 8%;
     left: -23%;
+}
+
+
+/* ---      body component (hero)  */
+
+.body-container {
+    /* background-color: #DFEBE9; */
+}
+.body-hero {
+    margin-left: 20%;
+    margin-top: 0;
+    float: right;
+    width: 100%;
+    height: 100vh;
+    background-color: #DFEBE9;
+}
+.box-container {
+    margin-left: 20%;
+    margin-top: 10px;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+.box {
+    width: 140%;
+    height: 13vh;
+    display: flex;
+    padding: 1rem;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: #0A5F59;
+    box-shadow: 4px 4px 10px #1E617A;
+}
+.box:nth-child(even) {
+    background-color: #FDCF6F;
+}
+.box p {
+    color: #fff;
+    font-size: 0.6rem;
+    font-family: 'Poppins';
 }

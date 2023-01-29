@@ -1,5 +1,5 @@
 import React from 'react'
-import { calendar, profile } from '../assets/icons'
+import { calendar, profile } from '../../assets/icons'
 
 const DashboardNavbar = () => {
   return (

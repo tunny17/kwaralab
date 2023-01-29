@@ -5,5 +5,3 @@ export { default as Body2 } from './Body2';
 export { default as Body3 } from './Body3';
 export { default as Body4 } from './Body4';
 export { default as Footer } from './Footer';
-export { default as DashBoardNav } from './DashboardNavbar';
-export { default as DashBoardBody } from './DashboardBody';
