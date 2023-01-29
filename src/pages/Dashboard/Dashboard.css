@@ -3,7 +3,7 @@
 .navigation-container {
     float: left;
     width: 17%;
-    height: 100vh;
+    height: 130vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -32,7 +32,7 @@ figcaption:nth-child(3) {
 }
 .navbar {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background-color: #252B42;
     position: relative;
     /* border-bottom-right-radius: 20px; */
@@ -114,26 +114,26 @@ figcaption:nth-child(3) {
 
 /* ---      body component (hero)  */
 
-.body-container {
+.dashboardBody-container {
     /* background-color: #DFEBE9; */
 }
-.body-hero {
+.dashboardBody-container {
     margin-left: 20%;
     margin-top: 0;
     float: right;
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     background-color: #DFEBE9;
 }
 .box-container {
     margin-left: 20%;
     margin-top: 10px;
     display: flex;
-    width: 90%;
+    width: 70%;
     justify-content: space-between;
 }
 .box {
-    width: 140%;
+    width: 19%;
     height: 13vh;
     display: flex;
     padding: 1rem;
@@ -151,4 +151,125 @@ figcaption:nth-child(3) {
     color: #fff;
     font-size: 0.6rem;
     font-family: 'Poppins';
+    position: relative;
+}
+.box:nth-child(1) p:nth-child(1)::after {
+    content: url(/src/assets/icons/box1.svg);
+    position: absolute;
+    zoom: 80%;
+    right: -60%;
+    top: -40%;
+}
+.box:nth-child(2) p:nth-child(2)::after {
+    content: url(/src/assets/icons/box2.svg);
+    position: absolute;
+    zoom: 90%;
+    left: 950%;
+    bottom: 70%;
+}
+.third {
+    position: relative;
+}
+.third p:nth-child(1)::after {
+    content: url(/src/assets/icons/box3.svg);
+    position: absolute;
+    zoom: 85%;
+    top: -70%;
+    right: -60%
+}
+.fourth {
+    position: relative;
+}
+.fourth p:nth-child(1)::after {
+    content: url(/src/assets/icons/box4.svg);
+    position: absolute;
+    zoom: 85%;
+    top: -70%;
+    right: -60%
+}
+/* .box:nth-child(2) {
+    margin-left: 300%;
+} */
+/* .box p:nth-child(2)::after {
+    content: url(/src/assets/icons/box2.svg);
+    position: absolute;
+    zoom: 80%;
+    right: -70%;
+    top: -40%;
+}
+.box p:nth-child(3)::after {
+    content: url(/src/assets/icons/box3.svg);
+    position: absolute;
+    zoom: 80%;
+    right: -70%;
+    top: -40%;
+} */
+
+
+
+
+/*  */
+.middle-section {
+    display: flex;   
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-top: 2%;
+    padding: 1% 3%;
+}
+.middle1,
+.middle2 {
+    width: 40%;
+    height: 40vh;
+    background-color: #fff;
+    border-radius: 12px;
+}
+.middle1 img {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.middle2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle1 .p,
+.middle2 .p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    padding-top: 6%;
+}
+
+.middle2 .p {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.middle-section p {
+    font-size: 0.8rem;
+    color: #0A5F59;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+.middle2 .content {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 5%;
+    margin-top: 3%;
+}
+.middle2 .content img:nth-child(1) {
+    width: 65%;
+}
+.middle2 .content img:nth-child(2) {
+    width: 11%;
+}
+
+.bottom-section {
+    display: flex;
+    margin-left: 15%;
 }

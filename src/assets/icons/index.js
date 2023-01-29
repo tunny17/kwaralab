@@ -23,3 +23,8 @@ export { default as nav6 } from './nav-6.svg';
 export { default as calendar } from './calendar.svg';
 export { default as logout } from './logout.svg';
 export { default as box1 } from './box1.svg';
+export { default as medicalH } from './medicalH.svg';
+export { default as medicalD } from './medicalD.svg';
+export { default as Doctors } from './doctors.svg';
+export { default as notepad } from './notepad.svg';
+export { default as traffic } from './traffic.svg';
