@@ -1,21 +1,22 @@
-import React, { useState, useEffect } from 'react'
-import axios from 'axios'
+import React from 'react'
+// import axios from 'axios'
 import { Doctors, medicalD, medicalH, notepad, traffic } from '../../assets/icons'
 
 const DashboardBody = () => {
-  const [patient, setPatient] = useState([]);
+//   const [patient, setPatient] = useState([]);
 
   
-  useEffect(() => {
-    (async () => {
-      try{
-        const { data: { patient } } = await axios.get('data.json');
-        setPatient(patient);
-      }catch(error){
-        console.log(error)
-      }
-    })()
-  }, [])
+// axios useEffect function for the json data
+//   useEffect(() => {
+//     (async () => {
+//       try{
+//         const { data: { patient } } = await axios.get('data.json');
+//         setPatient(patient);
+//       }catch(error){
+//         console.log(error)
+//       }
+//     })()
+//   }, [])
 
   return (
     <div  className='dashboardBody-container'>
