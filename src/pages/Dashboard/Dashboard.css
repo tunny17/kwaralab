@@ -187,24 +187,6 @@ figcaption:nth-child(3) {
     top: -70%;
     right: -60%
 }
-/* .box:nth-child(2) {
-    margin-left: 300%;
-} */
-/* .box p:nth-child(2)::after {
-    content: url(/src/assets/icons/box2.svg);
-    position: absolute;
-    zoom: 80%;
-    right: -70%;
-    top: -40%;
-}
-.box p:nth-child(3)::after {
-    content: url(/src/assets/icons/box3.svg);
-    position: absolute;
-    zoom: 80%;
-    right: -70%;
-    top: -40%;
-} */
-
 
 
 
